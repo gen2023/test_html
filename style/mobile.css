@@ -13,6 +13,9 @@
   .row_year {
     width: 100%;
   }
+  .form_control_filter:nth-child(n) {
+    width: 100%;
+  }
   .search {
     margin: 0 10px 0 28px;
   }
@@ -173,6 +176,9 @@
   .contact li::after {
     content: none;
   }
+  .nav_lang {
+    margin: 0;
+  }
   header {
     height: 140px;
   }
@@ -232,7 +238,7 @@
   .pagination li a {
     font-size: 16px;
     line-height: 24px;
-    padding: 8px 13px;
+    padding: 8px 8px;
   }
   .pagination li:nth-child(2) {
     margin-right: 0;
@@ -241,5 +247,8 @@
   .pagination li:nth-last-child(2) {
     margin-left: 0;
     margin-right: -22px;
+  }
+  .social a:nth-child(n) {
+    padding-right: 25px;
   }
 }

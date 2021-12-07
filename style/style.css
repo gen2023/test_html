@@ -565,8 +565,8 @@ footer {
   border-bottom: 1px solid #00d093;
 }
 .social a:nth-child(n) {
-  padding-left: 35px;
+  padding-right: 35px;
 }
 .social a:nth-last-child(1) {
-  padding-left: 0;
+  padding-right: 0;
 }
