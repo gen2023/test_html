@@ -1,0 +1,239 @@
+@media screen and (max-width: 1199px) {
+  .column_left,
+  .row_advantages_inversiya,
+  .block_contact,
+  .list,
+  .mobile_menu {
+    display: none;
+  }
+  .content {
+    width: 85%;
+  }
+  .column_right,
+  .row_year {
+    width: 100%;
+  }
+  .search {
+    margin: 0 10px 0 28px;
+  }
+  .icons {
+    display: flex;
+  }
+  header {
+    height: auto;
+  }
+  .input_search {
+    width: 305px;
+  }
+  .slider_recently_viewed {
+    overflow: hidden;
+  }
+  footer {
+    height: max-content;
+  }
+  .row_footer {
+    display: block;
+  }
+  .row_column_left_footer {
+    padding-bottom: 40px;
+  }
+  .column_left_footer {
+    padding-top: 86px;
+    height: max-content;
+  }
+  .column_right_footer {
+    padding-top: 0;
+  }
+  .row_column_right_footer {
+    padding-bottom: 0;
+  }
+  .row_footer2 {
+    margin-top: 0;
+  }
+  .navigation {
+    display: block;
+  }
+  .contact {
+    display: flex;
+    flex-direction: initial;
+  }
+  .contact li:nth-last-child(1) {
+    margin-right: 0;
+  }
+  .menu_icons {
+    display: none;
+  }
+  .menu_information {
+    flex-direction: column;
+  }
+  .menu_information_btn li a {
+    color: #fff;
+  }
+  .navigation_mobile {
+    width: 193px;
+    background: #000;
+    right: 0;
+    position: absolute;
+    padding: 29px 42px 95px 40px;
+    line-height: 32px;
+    font-size: 18px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 600;
+  }
+  .block_header {
+    justify-content: space-around;
+    margin: 0;
+    padding: 12px 0;
+  }
+  /*main*/
+  .row_caption {
+    justify-content: center;
+  }
+  .filter_mobile,
+  .content_main {
+    display: block;
+  }
+  .filter_main,
+  .filter_footer {
+    display: none;
+  }
+  .filter_header {
+    background: #111;
+    color: #fff;
+    display: flex;
+    padding: 28px 25px 22px 25px;
+    font-size: 24px;
+    line-height: 32px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    justify-content: space-between;
+    text-transform: uppercase;
+  }
+  .filter_block {
+    background: #282828;
+    width: 362px;
+    margin: 0 auto;
+  }
+  .filter_main {
+    padding: 45px 25px 48px 25px;
+  }
+  .button_cart {
+    font-size: 16px;
+    line-height: 24px;
+    width: 50%;
+  }
+  .product_list {
+    justify-content: center;
+  }
+  .product_list .product {
+    margin-bottom: 10px;
+  }
+  .product_list .product:nth-last-child(1) {
+    margin-bottom: 0px;
+  }
+  .renewal {
+    font-size: 16px;
+    line-height: 24px;
+  }
+  .title_recently_viewed {
+    font-weight: 600;
+  }
+  .bur_next {
+    right: 0;
+  }
+  .pagination li a {
+    font-size: 16px;
+    line-height: 24px;
+    padding: 8px 16px;
+  }
+
+  /*footer*/
+  .column_left_footer {
+    border: none;
+  }
+  .row_column_left_footer,
+  .row_column_right_footer,
+  .row_footer2 {
+    justify-content: space-around;
+  }
+  .block_menu_information,
+  .block_delivery {
+    padding: 0;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .navigation,
+  .nav_top,
+  .search,
+  .icons {
+    display: none;
+  }
+  .menu li::after,
+  .contact li::after {
+    content: none;
+  }
+  header {
+    height: 140px;
+  }
+  .mobile_menu {
+    display: block;
+    color: #fff;
+    width: 29px;
+    height: 16px;
+  }
+  .menu,
+  .contact {
+    display: flex;
+    flex-direction: column;
+  }
+  .contact li:nth-last-child(1) {
+    margin-right: 0;
+  }
+  .menu_icons {
+    display: flex;
+    background: #00d093;
+    height: 54px;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .menu_icons a img {
+    height: 25px;
+  }
+  .logo img {
+    width: 117px;
+    height: 28px;
+  }
+  /*main*/
+
+  .pagination li:nth-child(2) {
+    margin-right: 50px;
+  }
+  .pagination li:nth-last-child(2) {
+    margin-left: 50px;
+  }
+}
+@media screen and (max-width: 600px) {
+  .pagination li:nth-child(2) {
+    margin-right: 20px;
+  }
+  .pagination li:nth-last-child(2) {
+    margin-left: 20px;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .pagination li a {
+    font-size: 16px;
+    line-height: 24px;
+    padding: 8px 13px;
+  }
+  .pagination li:nth-child(2) {
+    margin-right: 0;
+    margin-left: -22px;
+  }
+  .pagination li:nth-last-child(2) {
+    margin-left: 0;
+    margin-right: -22px;
+  }
+}
